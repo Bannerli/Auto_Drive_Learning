@@ -1,9 +1,0 @@
-1. Traditional Edge detection on image processing 
-
-2. Machine Learning on lane detection
-K_means algorithm:
-
-steps: 1. Preprocessing Image
-          (1) White Color Thresholding, {Image I<R,G,B> >= <200, 200, 200>} => {Image I<R,G,B> = <255, 255, 255>}
-          (2) Area Thresholding, remove non-target contours
-          (3) Hough Transform [normal form](https://en.wikipedia.org/wiki/Hough_transform)
