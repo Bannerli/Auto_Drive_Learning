@@ -12,3 +12,5 @@ steps: 1. Preprocessing Image
           (3) Hough Transform [normal form](https://en.wikipedia.org/wiki/Hough_transform)
           Probabilistic Hough Transform does give us the lane marking position, but it also do the same process to all clusters and unkown points
        2. Application of K-means to get Line Data
+          (1) Silhouette Coefficient is the measuring standard
+          if the coefficient is positive and close to 1, which is indicative of good clustering.
